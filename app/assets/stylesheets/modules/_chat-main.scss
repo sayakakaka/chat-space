@@ -1,7 +1,5 @@
 .chat-main {
   width: calc(100% - 300px);
-  
-
   .main-header {
     background-color: #ffffff;
     height: 100px;
@@ -10,22 +8,21 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
-    .main-header__left {
+    .header-left {
       margin-top: 35px;
-      .main-header__left__title {
+      &__title {
         color: #333333;
         font-size: 20px;
         margin-bottom: 15px;
        }
-      .main-header___left__members {
+      &__members {
         display: flex;
         color: #999999;
         font-size: 12px;
-        &__member {
-        }
+        
       }
     }
-    .main-header__right {
+    &__right {
       color: #38aef0;
       border: 1px solid #38aef0;
       width: 72px;
@@ -77,10 +74,10 @@
           height: 50px;
           padding: 0 40px 0 10px;
         }
-        &__image {
-          position: absolute;
-          top: 10px;
-          right: 10px;
+          &__image {
+            position: absolute;
+            top: 10px;
+            right: 10px;
       
           &__file {
             display: none;
