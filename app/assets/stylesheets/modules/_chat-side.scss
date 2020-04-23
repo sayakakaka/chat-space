@@ -26,13 +26,15 @@
     }
   }
     
-  .groups{
+  .groups {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
-    padding: 0 20px;
+    padding: 20px;
+    
     &__new {
       padding: 20px 0 40px;
       align-items: center;
+      
     }
     &__group-name {
       font-size: 15px;
@@ -41,5 +43,9 @@
     &__group-messages {
       font-size: 11px;
     }
+      a {
+        color: white;
+        text-decoration: none;
+      }
   }
 }
