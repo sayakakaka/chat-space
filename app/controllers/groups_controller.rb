@@ -19,8 +19,6 @@ class GroupsController < ApplicationController
 
   def edit
     @group = Group.find(params[:id])
-    
-    
   end
 
   def update
@@ -30,8 +28,6 @@ class GroupsController < ApplicationController
     else
       render :edit
     end
-
-    
   end
 
 

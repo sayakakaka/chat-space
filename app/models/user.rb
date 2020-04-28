@@ -8,5 +8,5 @@ class User < ApplicationRecord
   has_many :groups, through: :group_users
   has_many :messages
 
-  validates :message, presence:true
+  validates :name, presence:true
 end
