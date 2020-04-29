@@ -43,6 +43,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'faker'
   gem "pry-rails"
+  gem "remotipart"
 end
 
 group :development do
