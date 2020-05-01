@@ -37,13 +37,13 @@
       align-items: center;
       
     }
-    &__group-name {
-      font-size: 15px;
-      margin: 0px 0px 5px;
-    }
-    &__group-messages {
-      font-size: 11px;
-    }
+      &__new__group-name {
+        font-size: 15px;
+        margin: 0px 0px 5px;
+      }
+      &__new__group-messages {
+        font-size: 11px;
+      }
       a {
         color: white;
         text-decoration: none;
